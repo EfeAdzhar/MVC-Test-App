@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+class ViewModel {
+    private var count : Int?
+    
+    public func getCount() -> Int {
+        return self.count!
+    }
+    
+    public func setCount(_ count : Int) {
+        self.count = count
+    }
+}
